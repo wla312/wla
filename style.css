@@ -1,0 +1,149 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+header {
+  padding: 20px 0;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+header p a{
+  color: black;
+  text-decoration: none;
+}
+
+header p a:hover{
+  color: grey;
+  text-decoration: none;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+  background-size: cover;
+  color: #ffffff;
+  height: 300px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron h2 a{
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: white;
+}
+
+.jumbotron h2 a:hover{
+  text-decoration: none;
+}
+
+/*.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}*/
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #fbd1d5;
+  text-shadow: none;
+  background-color: #ffffff;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #fbd1d5;
+}
+
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+
+.contactcontainer {
+  display: inline-block;
+  width: 100%;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 5px 0px;
+  font-size: 115%;
+}
+
+textarea {
+  /*height: 200px;*/
+  width: 100%;
+  border-color: lightgrey;
+}
+
+input[type=button], input[type=submit] {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 8px 24px;
+    text-decoration: none;
+    margin: 10px 0px;
+    cursor: pointer;
+    font-size: 115%;
+}
+
+.card {
+  margin-bottom: 5px;
+}
+
+.card img {
+  border-radius: 4px;
+}
+
